@@ -86,7 +86,7 @@ public class Network {
      *  The user who appears the most in the follow lists of all the users. */
     public String mostPopularUser() {
         if (userCount == 0) {
-            return null; // Handle empty network
+            return null;
         }
         int maxFollowers = 0;
         String mostPopular = null;
