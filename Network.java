@@ -21,6 +21,9 @@ public class Network {
         users[2] = new User("Baz");
         userCount = 3;
     }
+    public int getUserCount() {
+        return userCount;
+    }
 
     /** Finds in this network, and returns, the user that has the given name.
      *  If there is no such user, returns null.
